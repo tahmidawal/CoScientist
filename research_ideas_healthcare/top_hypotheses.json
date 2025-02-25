@@ -1,0 +1,45 @@
+[
+  {
+    "id": "2aebe46e-fd04-41d5-b9ad-a8ee1b177480",
+    "display_id": "H-2aebe46e",
+    "description": "Investigating a self-supervised approach using generative modeling with masked modality prediction. The hypothesis is that training a model to reconstruct or predict a masked modality (e.g., masking parts of a medical image and predicting the masked regions based on clinical text and genomic data) will force the model to learn meaningful cross-modal relationships and representations that capture the inherent dependencies between modalities.",
+    "components": [
+      "Generative Modeling",
+      "Masked Modality Prediction",
+      "Cross-Modal Representation Learning",
+      "Medical Images",
+      "Clinical Text",
+      "Genomic Data"
+    ],
+    "score": 0,
+    "justification": ""
+  },
+  {
+    "id": "06233826-825a-49b1-a195-e6d71e9308ab",
+    "display_id": "H-06233826",
+    "description": "Exploring a self-supervised learning approach that leverages hierarchical relationships within and across healthcare modalities. The hypothesis is that by explicitly modeling and learning these hierarchical structures (e.g., anatomical regions in images, semantic categories in clinical text, biological pathways in genomics) in a self-supervised manner, the model can learn more interpretable and clinically meaningful representations that capture the inherent organization of healthcare data.",
+    "components": [
+      "Hierarchical Representation Learning",
+      "Multimodal Hierarchical Data Structures",
+      "Anatomical Hierarchy (Images)",
+      "Semantic Hierarchy (Clinical Text)",
+      "Biological Pathway Hierarchy (Genomics)"
+    ],
+    "score": 0,
+    "justification": ""
+  },
+  {
+    "id": "29715430-1e35-4d2d-bfc6-161aa1e8a8c2",
+    "display_id": "H-29715430",
+    "description": "Exploring federated self-supervised learning for multimodal healthcare data in privacy-preserving settings. The hypothesis is that by adapting self-supervised learning techniques to a federated learning framework, we can train robust multimodal models across multiple healthcare institutions without sharing sensitive patient data directly, leveraging the collective information while maintaining data privacy and security.",
+    "components": [
+      "Federated Learning",
+      "Privacy-Preserving Computation",
+      "Multimodal Data across Distributed Healthcare Institutions",
+      "Self-Supervised Learning in Federated Setting",
+      "Secure Aggregation Techniques"
+    ],
+    "score": 0,
+    "justification": ""
+  }
+]

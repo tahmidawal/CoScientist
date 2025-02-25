@@ -1,0 +1,112 @@
+[
+  {
+    "id": "def5b3c3-b08c-49b4-bc2f-d1acea498234",
+    "description": "Developing a novel self-supervised learning framework that leverages contrastive learning across different healthcare modalities (e.g., medical images, clinical text, genomic data) by maximizing the agreement between representations of the same patient data instance obtained from different modalities. This approach aims to learn a unified, patient-centric representation space where multimodal data points from the same patient are clustered together, even without explicit labels.",
+    "components": [
+      "Contrastive Learning",
+      "Multimodal Data Fusion",
+      "Medical Images (e.g., MRI, CT scans)",
+      "Clinical Text (e.g., doctor's notes, radiology reports)",
+      "Genomic Data (e.g., gene expression, mutations)"
+    ]
+  },
+  {
+    "id": "2aebe46e-fd04-41d5-b9ad-a8ee1b177480",
+    "description": "Investigating a self-supervised approach using generative modeling with masked modality prediction. The hypothesis is that training a model to reconstruct or predict a masked modality (e.g., masking parts of a medical image and predicting the masked regions based on clinical text and genomic data) will force the model to learn meaningful cross-modal relationships and representations that capture the inherent dependencies between modalities.",
+    "components": [
+      "Generative Modeling",
+      "Masked Modality Prediction",
+      "Cross-Modal Representation Learning",
+      "Medical Images",
+      "Clinical Text",
+      "Genomic Data"
+    ]
+  },
+  {
+    "id": "f239929f-ac98-46a3-8728-c6fbf518a326",
+    "description": "Exploring the use of temporal contrastive learning for multimodal time-series healthcare data (e.g., ECG, EEG, PPG, and wearable sensor data).  The hypothesis is that by contrasting representations of different temporal segments within and across modalities for the same patient, the model will learn to capture clinically relevant temporal dynamics and inter-modal temporal dependencies crucial for monitoring and predicting patient health trajectories.",
+    "components": [
+      "Temporal Contrastive Learning",
+      "Multimodal Time-Series Data",
+      "Physiological Signals (ECG, EEG, PPG)",
+      "Wearable Sensor Data (Accelerometer, Gyroscope)",
+      "Temporal Dynamics Modeling"
+    ]
+  },
+  {
+    "id": "a1970990-b8b1-46c0-a716-a8ff655f0da8",
+    "description": "Investigating self-supervised learning through modality-invariant representation learning for multimodal healthcare data. The hypothesis is that by training a model to learn representations that are invariant to specific modality characteristics (e.g., imaging modality, sensor type) but preserve clinically relevant information across modalities, we can achieve more generalizable and robust models for diverse healthcare datasets.",
+    "components": [
+      "Modality-Invariant Representation Learning",
+      "Domain Adaptation/Generalization",
+      "Multimodal Healthcare Data (varying modalities within each type)",
+      "Adversarial Learning or Domain Generalization Techniques"
+    ]
+  },
+  {
+    "id": "d42dfdcb-5598-4e0e-9e98-8343e484f5e0",
+    "description": "Developing a self-supervised learning framework that utilizes knowledge distillation to transfer knowledge from complex, computationally expensive multimodal models to simpler, more efficient unimodal or lightweight multimodal models. The hypothesis is that by pre-training a large multimodal model with SSL and then distilling its knowledge into smaller models, we can achieve comparable performance with reduced computational cost and improved deployment feasibility, especially in resource-constrained healthcare environments.",
+    "components": [
+      "Knowledge Distillation",
+      "Multimodal Teacher Model (Large, Complex)",
+      "Unimodal or Lightweight Multimodal Student Model (Small, Efficient)",
+      "Self-Supervised Pre-training",
+      "Model Compression"
+    ]
+  },
+  {
+    "id": "06233826-825a-49b1-a195-e6d71e9308ab",
+    "description": "Exploring a self-supervised learning approach that leverages hierarchical relationships within and across healthcare modalities. The hypothesis is that by explicitly modeling and learning these hierarchical structures (e.g., anatomical regions in images, semantic categories in clinical text, biological pathways in genomics) in a self-supervised manner, the model can learn more interpretable and clinically meaningful representations that capture the inherent organization of healthcare data.",
+    "components": [
+      "Hierarchical Representation Learning",
+      "Multimodal Hierarchical Data Structures",
+      "Anatomical Hierarchy (Images)",
+      "Semantic Hierarchy (Clinical Text)",
+      "Biological Pathway Hierarchy (Genomics)"
+    ]
+  },
+  {
+    "id": "9e48ce6f-6f84-4c4b-9c93-f0a5cb7be3fc",
+    "description": "Investigating self-supervised learning for multimodal data using a graph-based approach. The hypothesis is that by representing multimodal patient data as a heterogeneous graph where nodes represent data instances and edges represent relationships (e.g., patient similarity, temporal adjacency, cross-modal correspondence), and applying graph neural networks (GNNs) with self-supervised objectives, we can learn rich contextualized representations that capture complex inter-patient and inter-modal relationships.",
+    "components": [
+      "Graph Neural Networks (GNNs)",
+      "Heterogeneous Graph Representation",
+      "Multimodal Patient Data (nodes)",
+      "Relationship Edges (patient similarity, temporal links, modality correspondence)",
+      "Graph-based Self-Supervised Learning"
+    ]
+  },
+  {
+    "id": "320db18c-11da-4a19-8e69-e6c07c770e78",
+    "description": "Developing a self-supervised learning method that focuses on learning causal representations from multimodal healthcare data. The hypothesis is that by training a model to predict potential causal relationships between different modalities or variables within modalities (e.g., predicting the effect of a genomic variant on a medical image feature), we can learn representations that are more robust, interpretable, and useful for causal inference in healthcare.",
+    "components": [
+      "Causal Representation Learning",
+      "Multimodal Data (potential causal variables)",
+      "Causal Inference Techniques (e.g., Instrumental Variables, Do-Calculus inspired objectives)",
+      "Intervention Prediction",
+      "Counterfactual Reasoning (Implicit)"
+    ]
+  },
+  {
+    "id": "29715430-1e35-4d2d-bfc6-161aa1e8a8c2",
+    "description": "Exploring federated self-supervised learning for multimodal healthcare data in privacy-preserving settings. The hypothesis is that by adapting self-supervised learning techniques to a federated learning framework, we can train robust multimodal models across multiple healthcare institutions without sharing sensitive patient data directly, leveraging the collective information while maintaining data privacy and security.",
+    "components": [
+      "Federated Learning",
+      "Privacy-Preserving Computation",
+      "Multimodal Data across Distributed Healthcare Institutions",
+      "Self-Supervised Learning in Federated Setting",
+      "Secure Aggregation Techniques"
+    ]
+  },
+  {
+    "id": "bdac9fe9-3a5c-4b65-995b-8325ae8f2f50",
+    "description": "Developing explainable self-supervised learning techniques for multimodal healthcare data, focusing on creating inherently interpretable representations or enabling post-hoc explanation of learned representations. The hypothesis is that by integrating explainability mechanisms directly into the SSL training process, we can obtain multimodal models that are not only accurate but also transparent and understandable, facilitating trust and adoption in clinical settings.",
+    "components": [
+      "Explainable AI (XAI)",
+      "Interpretable Self-Supervised Learning",
+      "Multimodal Healthcare Data",
+      "Attention Mechanisms for Explainability",
+      "Post-hoc Explanation Methods (e.g., SHAP, LIME) for SSL representations"
+    ]
+  }
+]
