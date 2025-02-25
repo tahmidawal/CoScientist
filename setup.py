@@ -27,12 +27,14 @@ setup(
         "huggingface": ["huggingface-hub>=0.12.0"],
         "praison": ["praisonai>=0.1.0"],
         "gemini": ["google-generativeai>=0.3.0"],
+        "vector": ["faiss-cpu>=1.7.0"],
         "all": [
             "openai>=1.0.0",
             "anthropic>=0.5.0",
             "huggingface-hub>=0.12.0",
             "praisonai>=0.1.0",
             "google-generativeai>=0.3.0",
+            "faiss-cpu>=1.7.0",
         ],
         "dev": [
             "pytest>=6.0.0",

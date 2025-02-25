@@ -14,6 +14,11 @@ from coscientist.agents.default_agents import (
     RankingAgent,
     MetaReviewAgent,
 )
+from coscientist.agents.specialized_agents import (
+    ManagerAgent,
+    LiteratureAgent,
+    ResearchAgent,
+)
 
 __all__ = [
     "AgentManager",
@@ -24,4 +29,7 @@ __all__ = [
     "EvolutionAgent",
     "RankingAgent",
     "MetaReviewAgent",
+    "ManagerAgent",
+    "LiteratureAgent",
+    "ResearchAgent",
 ]
