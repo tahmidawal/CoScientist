@@ -2,6 +2,18 @@
 
 CoScientist is an advanced AI system capable of autonomously generating novel and high-impact research ideas in Machine Learning and related fields. It follows a similar architecture and methodology to Google's AI Co-Scientist.
 
+## Green's Function Research Ideas
+
+This repository includes three novel research ideas for learning Green's functions without resolution limitations using deep learning:
+
+1. **Uncertainty Quantification (UQ) for Green's Functions**: Integrating UQ methods with deep learning models to provide confidence estimates for Green's function predictions at arbitrary resolutions.
+
+2. **Meta-Learning for Green's Functions**: Using meta-learning techniques to enable models that quickly adapt to learn Green's functions for new PDEs or domain geometries with minimal data.
+
+3. **Graph Neural Networks for Complex Domains**: Utilizing GNNs to learn Green's functions on irregular or complex domains by representing the domain as a graph.
+
+Each research idea comes with a detailed implementation plan, including technical approach, required datasets, algorithms with pseudocode, evaluation methodologies, and academic references.
+
 ## Features
 
 - **Autonomous Idea Generation**: Generate innovative research hypotheses based on a research goal
@@ -53,11 +65,8 @@ pip install -e ".[dev]"
 # Run with the standard workflow
 coscientist --research-goal "Develop a neural network architecture for solving differential equations" --output results.json
 
-# Run with more hypotheses and generations
-coscientist --research-goal "Design a quantum machine learning algorithm for drug discovery" --num-hypotheses 10 --generations 5
-
-# Run with an iterative workflow
-coscientist --research-goal "Create a new reinforcement learning algorithm for robotic control" --workflow iterative
+# Generate research ideas for Green's functions
+python examples/top_ideas_with_research.py --research-goal "Using deep learning to learn Green's functions without resolution limitations" --output-dir greens_function_research
 ```
 
 ### Python API
